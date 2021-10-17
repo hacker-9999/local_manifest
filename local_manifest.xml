@@ -14,8 +14,8 @@
         <project path="kernel/xiaomi/juice" name="kernel_poco_juice" remote="hacker-1999" revision="main" clone-depth="1" />
 
 	<!-- clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+        <!-- project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" /-->
 
         <!-- Remove some projects -->
-        <remove-project name="platform/packages/modules/Virtualization"/>
+        <!-- remove-project name="platform/packages/modules/Virtualization"/-->
 </manifest>
