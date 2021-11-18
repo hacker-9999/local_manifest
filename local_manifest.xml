@@ -7,6 +7,8 @@
                  fetch="https://github.com/hacker-1999" />
         <remote  name="kdrag0n"
 		 fetch="https://github.com/kdrag0n" />
+	<remote  name="lineage"
+           fetch="https://github.com/LineageOS"/>
 
 	<!-- Device side things -->
 	<project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="aseelps" revision="test" clone-depth="1" />
@@ -15,4 +17,8 @@
 
 	<!-- clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+
+        <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" remote="lineage" revision="lineage-18.1-caf-sm8250" />
+        <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-18.1-caf-sm8250" />
+        <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" remote="lineage" revision="lineage-18.1-caf-sm8250" />
 </manifest>
