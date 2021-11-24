@@ -9,8 +9,8 @@
 		 fetch="https://github.com/kdrag0n" />
 
 	<!-- Device side things -->
-	<project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="aseelps" revision="test12" clone-depth="1" />
-	<project path="vendor/xiaomi/juice" name="prebuilt-vendor_xiaomi_juice" remote="aseelps" revision="dot11" clone-depth="1" />
+	<project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="aseelps" revision="test" clone-depth="1" />
+	<project path="vendor/xiaomi/juice" name="prebuilt-vendor_xiaomi_juice" remote="aseelps" revision="RS" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="kernel_poco_juice" remote="hacker-1999" revision="main" clone-depth="1" />
 
 	<!-- clang -->
