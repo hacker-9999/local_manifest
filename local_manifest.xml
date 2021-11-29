@@ -3,8 +3,8 @@
 	<!-- Remotes -->
 	<remote  name="aseelps"
                  fetch="https://github.com/aseelps" />
-        <remote  name="hacker-1999"
-                 fetch="https://github.com/hacker-1999" />
+        <remote  name="hacker-9999"
+                 fetch="https://github.com/hacker-9999" />
         <remote  name="kdrag0n"
 		 fetch="https://github.com/kdrag0n" />
 	<remote  name="lineage"
@@ -13,7 +13,7 @@
 	<!-- Device side things -->
 	<project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="aseelps" revision="testpe12" clone-depth="1" />
 	<project path="vendor/xiaomi/juice" name="prebuilt-vendor_xiaomi_juice" remote="aseelps" revision="RS" clone-depth="1" />
-        <!--project path="kernel/xiaomi/juice" name="kernel_poco_juice" remote="hacker-1999" revision="main" clone-depth="1" />
+        <!--project path="kernel/xiaomi/juice" name="kernel_poco_juice" remote="hacker-9999" revision="main" clone-depth="1" />
 
 	<!-- clang -->
         <!--project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
