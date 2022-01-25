@@ -3,15 +3,20 @@
 	<!-- Remotes -->
 	<remote  name="aseelps"
                  fetch="https://github.com/aseelps" />
+        <remote  name="aseelps-gitlab"
+                 fetch="https://gitlab.com/aseelps" />
         <remote  name="hacker-9999"
                  fetch="https://github.com/hacker-9999" />
         <remote  name="kdrag0n"
 		 fetch="https://github.com/kdrag0n" />
 	<remote  name="lineage"
-           fetch="https://github.com/LineageOS"/>
+                 fetch="https://github.com/LineageOS"/>
 
 	<!-- Device side things -->
 	<project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="aseelps" revision="testpe12" clone-depth="1" />
 	<project path="vendor/xiaomi/juice" name="prebuilt-vendor_xiaomi_juice" remote="aseelps" revision="RS" clone-depth="1" />
+       
+       <!-- Aosp clang -->
+       <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="prebuilts_clang_host_linux-x86_clang-r437112b" remote="aseelps-gitlab" revision="clang-r437112b" clone-depth="1" />
 
 </manifest>
