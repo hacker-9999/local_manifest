@@ -15,7 +15,7 @@
 	<!-- Device side things -->
 	<project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="aseelps" revision="testpe12" clone-depth="1" />
 	<project path="vendor/xiaomi/juice" name="prebuilt-vendor_xiaomi_juice" remote="aseelps" revision="RS" clone-depth="1" />
-        <project path="kernel/xiaomi/juice" name="Xiaomi-Fury-Bengal-SD662" remote="aseelps" revision="CitrusMoonInline" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="Xiaomi-Fury-Bengal-SD662" remote="aseelps" revision="JuiceIcedSnow" clone-depth="1" />
 
        <!-- Aosp clang -->
        <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="prebuilts_clang_host_linux-x86_clang-r437112b" remote="aseelps-gitlab" revision="clang-r437112b" clone-depth="1" />
